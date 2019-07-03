@@ -1,0 +1,11 @@
+<p>emp-update works!</p>
+<div class="container">
+   <div class="row" >
+        <input type="text" name="empId" [(ngModel)]="employee.empId"/>
+        <input type="text" name="empName" [(ngModel)]="employee.empName"/>
+        <input type="text" name="designation" [(ngModel)]="employee.designation"/>
+        <div class="col-md-2">
+            <button (click)="updateEmployee(employee.empId,employee.designation)">Edit</button>
+        </div>    
+    </div>
+    </div>
